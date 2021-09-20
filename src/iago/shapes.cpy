@@ -29,7 +29,8 @@ namespace shape:
 
 
   class Shape;
-  static vector<Shape*> to_draw = {}
+  extern vector<Shape*> to_draw = {}
+
   class Shape: public ui::Widget:
     private:
     static double snapping
