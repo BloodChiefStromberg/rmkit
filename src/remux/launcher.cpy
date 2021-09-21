@@ -14,7 +14,6 @@
 #include <chrono>
 
 #include "../shared/proc.h"
-#define OKP_IMPL
 #include "../build/rmkit.h"
 #include "../genie/gesture_parser.h"
 #include "config.h"

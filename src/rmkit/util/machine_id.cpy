@@ -1,12 +1,13 @@
-@impl #include <sys/types.h>
-@impl #include <sys/stat.h>
-@impl #include <fcntl.h>
-@impl #include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+
 namespace util:
   const int VERSION_MAX = 1024
   enum RM_VERSION { UNKNOWN=0, RM1, RM2 }
   static char VERSION_STR[VERSION_MAX]
-  @impl int get_remarkable_version():
+  inline int get_remarkable_version():
     static int CUR_VERSION = -1
     if CUR_VERSION == -1:
       do {
