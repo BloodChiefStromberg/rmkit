@@ -1,3 +1,5 @@
+// @nosplit
+
 #include "../assets.h"
 
 namespace app_ui:
@@ -18,9 +20,6 @@ namespace app_ui:
       const static BrushSize FINE = 0;
       const static BrushSize MEDIUM = 1;
       const static BrushSize WIDE = 2;
-      
-      Size():
-        pass
 
       Size(int val, string name, icons::Icon icon): val(val), name(name), icon(icon):
         pass

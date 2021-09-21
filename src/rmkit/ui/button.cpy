@@ -147,3 +147,4 @@ namespace ui:
       toggled = !toggled
       self.events.toggled(toggled)
       self.dirty = 1
+  ;
