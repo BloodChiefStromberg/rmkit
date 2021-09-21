@@ -172,7 +172,7 @@ public:
     InheritedStylesheet alignment() { return _inherit(&Stylesheet::alignment); }
 };
 
-#ifdef OKP_IMPL
+#ifdef RMKIT_IMPLEMENTATION
 InheritedStylesheet Style::inherit() const
 {
     return InheritedStylesheet(*this);

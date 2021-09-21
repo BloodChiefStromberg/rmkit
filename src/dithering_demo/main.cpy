@@ -1,3 +1,5 @@
+// @nosplit
+
 #include "../build/rmkit.h"
 
 #include <algorithm>
